@@ -3,6 +3,13 @@
 using namespace std;
 
 int sumArray(const vector<int>& arr) {
+	int sum=0;
+	int size= arr.size();
+	for (int i=0; i<size ;i++)
+	{
+		sum+= arr[i];
+	}
+	return sum;
     // TODO: complete the function as per instructions
     
 }
@@ -16,4 +23,3 @@ int main() {
     cout << sumArray(arr) << "\n";
     return 0;
 }
-
